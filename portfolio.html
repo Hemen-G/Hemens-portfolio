@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script defer src="index.js"></script>
+  
+  <title>Hemen Girma</title>
+</head>
+<body>
+  <!------------------------header---------------------------------------->
+ 
+  <div id="header">
+    <a href="#header" class="logo">Hemen-G
+    </a>
+    
+    <nav>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      <div class="nav-bar" id="navbar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <a href="#home" >Home</a>
+        <a href="#about" >About</a>
+        
+        <a href="#projects" >Project</a>
+        <a href="#contact" >Contact</a>
+      </div>
+    </nav>
+  </div>
+<!-----------------------------------home------------------------------------------->
+<div id="home">
+  <div class="container">
+    <div class="intro">
+      <p>Front-end developer</p>
+      <h1>Hey there, I'm Hemen Girma<br>
+      3rd year Software Engineering Student</h1>
+
+    </div>
+  </div>
+</div>
+  <!---------------------------------- about me--------------------------->
+  <div id="about">
+    <div class="row">
+      
+      <div class="about-col-1">
+       <h1>About me </h1>
+       <h3>I'm a Software Engineering Student</h3>
+        <p>  3rd-year undergraduate developing skills in frontend development (React, JavaScript) and exploring full-stack technologies. Experience building basic web/mobile applications through coursework and personal projects. Comfortable with UI implementation and learning backend integration. Working knowledge of databases and version control. Interested in practical software development and problem-solving. Currently strengthening my skills through hands-on learning.
+           ...</p>
+           <div class="tab-title ">
+            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+            <p class="tab-links"  onclick="opentab('education')" >Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li> <span> front-end-dev</span><br> 3rd-year Software Engineering student with hands-on experience in frontend development using:
+
+                HTML5, CSS3, and JavaScript (ES6+)
+                Responsive web design principles
+            
+                Basic state management and component architecture
+            
+            Developed several academic projects including responsive websites and simple web applications. Passionate about creating clean, user-friendly interfaces and continuously learning modern frontend technologies. </li>
+              <li> <span> JAVA</span><br> I'm a 3rd-year Software Engineering student with working knowledge of Core Java. I understand OOP basics, Collections, and Exception Handling. I've practiced with simple algorithms and built console applications for coursework. Currently learning more about Java programming concepts and looking to improve my skills.</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+              <li> <span> Highschool</span><br> [BN school], [2022]
+
+                Focused on foundational STEM courses (Math, Physics, Computer Basics)
+            
+                Developed problem-solving and analytical skills </li>
+              <li> <span> University</span><br> 3rd-year Bachelor of Software Engineering student at [Adama Science and Technology University]. Currently completing coursework in programming fundamentals, web programing,algorithms, and software development principles. Gaining practical experience through academic projects and self-directed learning. Expected graduation: [Month, Year]. </li>
+            </ul>
+           </div>
+           
+           
+  </div>
+  <div class="about-col-2">
+    <img src="image/pic.jpg"></img>
+  </div>
+
+</div>
+</div>
+
+ <!--------------------------------- project------------------------------>
+  <div id="projects">
+    
+      <div class=" container">
+        <h1>My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            
+              <h3>Calculator</h3>
+        <p>HTML and JavaScript calculator application. It features a user interface built with a grid layout and styled buttons for various mathematical operations. The calculator allows users to perform basic arithmetic operations, percentage calculations, and factorial computations.
+       
+         ...</p>
+              <a href="https://github.com/Hemen-G/Calculator"><i class=" fas fa-external-link-alt"></i></a>
+            </div>
+          
+          <div class="work">
+            
+            
+              <h3>University Website</h3>
+    <p>  This project is a responsive website for Adama Science and Technology University (ASTU), built using HTML for structure, CSS for styling, JavaScript for interactivity, and PHP for handling forms to send emails. The site features key sections including an About Us page detailing ASTU's mission, a Courses section with program information, a Blog for updates, and a Contact page with a PHP-powered email form. It also includes a responsive navigation menu for easy access and social media links for connecting with the university. Overall, the site provides comprehensive information about ASTU while utilizing modern web development practices.
+         ...</p>
+              <a href="https://github.com/Hemen-G/Website"><i class=" fas fa-external-link-alt"></i></a>
+            </div>
+          
+          <div class="work">
+           
+            
+              <h3>TO-do list</h3>
+    <p> This project is a To-Do List application developed as a group effort, where my role focused on connecting the server to the database using a Data Access Object (DAO) class. The application is built with Java Servlets for server-side processing, HTML for the user interface, and a MySQL database to store tasks user info. The project allows users to create, read, update, and delete tasks efficiently. Overall, it demonstrates effective collaboration and the application of web development principles in managing data and user interactions.
+         ...</p>
+              <a href="https://github.com/Hemen-G/TO-DO-list"><i class=" fas fa-external-link-alt"></i></a>
+            </div>
+          
+        </div>
+        <a href="" class="btn">Explor more </a>
+      </div>
+  </div>
+  <!------------------------------contact ------------------------------->
+  <div id="contact">
+    <div class="container">
+      
+        
+          <h1>Conatact Me</h1>
+          
+          <div class="social-icons">
+            <a href="https://www.t.me/hemg3" target="_blank"  > <i class="fab fa-telegram-plane"></i></a>
+            <a href="https://www.linkedin.com/in/hemen-girma" target="_blank">
+              <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/hemen-girma" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+          </div>
+          <i class="fas fa-envelope icon"> hemengirwerk@gmail.com</i>
+
+        </div>
+       
+     
+    </div>
+  
+</body>
+</html>
