@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  
   box-sizing: border-box;
   text-decoration:none;
   border: none;
@@ -11,10 +11,10 @@
                       
 }
 :root {
-  --bg-color:#080808;
-  --second-bg-color:#131313;
-  --text-color:white;
-  --main-color:#00ffee;
+  --bg-color:#C0C0C0;
+  --second-bg-color:#808080;
+  --text-color:#080808;
+  --main-color:#080808;
 }
 html{
   font-size: 60%;  
@@ -24,6 +24,7 @@ html{
 body{
   background-color: var(--bg-color);
   color:var(--text-color);
+  font-family: 'Roboto', sans-serif;
 }
 #header{
   
@@ -84,7 +85,7 @@ nav .fa{
 #home{
   width: 100%;
   height: 100vh;
-  background-image: url(image/background\ \(3\).jpg);
+  background-image: url(image/background.jpg);
   background-size: cover;
   background-position:center ;
   
@@ -304,7 +305,7 @@ i{
 
 .nav-bar {
     position: fixed; 
-    background: var(--main-color);
+    background: var(--bg-color);
     color: var(--text-color);
     height: 100vh; 
     width: 150px; 
