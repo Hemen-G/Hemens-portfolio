@@ -243,23 +243,7 @@ work h3{
 .work:hover{
   box-shadow: 2px 2px 5px var(--main-color), -2px -2px 5px var(--bg-color);
 }
-.btn{
-  display: block;
- 
-  border: 2px solid var(--main);
-  background:transparent;
-  border: 1px solid var(--main-color);
-  color: var(--text-color);
-  margin:50px ;
-  padding: 10px 20px;
-  font-size: 16px;
-  transition: 0.5s;
-  width:fit-content;
-}
-.btn:hover{
-  box-shadow: 2px 2px 5px var(--main-color), -2px -2px 5px var(--bg-color);
-  
-}
+
 /*-------------------------contact--------------------------------*/
 #contact {
   width: 100%;
@@ -279,6 +263,7 @@ work h3{
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
+ 
   color:var(--main-color);
   display: inline-block;
   transition: transform 0.5s;
@@ -293,10 +278,14 @@ work h3{
   border-radius: 50%;
   font-size: 30px; 
   vertical-align:auto;  
+ 
 }
 .social-icons a:hover{
   transform: translate(-5px);
   box-shadow: 2px 2px 5px var(--main-color), -2px -2px 5px ;
+}
+.fa-envelope icon{
+  margin-top: 2px;
 }
 i{
   color:var(--main-color);
